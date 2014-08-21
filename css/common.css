@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/* ========BASIC======== */
+body {
+   font-size:13px;
+   font-family:Verdana,Osaka,'MS UI Gothic';
+   color:#333;
+   line-height:1.6;
+   margin:0;
+   letter-spacing:1px;
+}
+
+a {
+   color:#899501;
+   text-decoration:none;
+}
+
+a:hover {
+   color:#c9d450;
+   cursor:e-resize;
+}
+
+image {
+   border:0;
+}
+
+br {
+   letter-spacing:normal;
+}
+
+/* タイトル */
+h1 {
+   font-size:16px;
+   color:#339999;
+   font-weight:bold;
+   text-align:center;
+   margin:30px;
+}
+
+/* ========TEMPLATE FRAMEWORK======== */
+#wrapper {
+	width:1024px;
+   margin:0px auto;
+   text-align:left;
+   padding:10px;
+}
+
+/* ========MENU CUSTOMIZE======== */
+#menu ul {
+   list-style:none;
+   padding-left:90px;
+   margin:30px 0;
+}
+
+#menu li {
+   display:inline;
+   padding-right:30px;
+}
+
+/* ========CONTENTS CUSTOMIZE======== */
+#contents h2 {
+   background:url("../images/h2_icon.gif") no-repeat;
+   padding:3px 3px 3px 45px;
+   border-bottom:1px #899501 dotted;
+   font-size:1em;
+   font-weight:normal;
+   line-height:29px;
+   margin:0;
+}
+#contents h3 {
+	background:url("../images/h2_icon.gif")no-repeat;
+	padding:3px 3px 3px 45px;
+	border-bottom:1px #899501 dotted;
+}
+
+#img {
+width:450px;
+height:485px;
+clear:left;
+background:url(../images/illust.jpg)no-repeat scroll right bottom;
+float:right;
+}
+
+#img2 {
+width:450px;
+height:600px;
+clear:left;
+background:url(../images/illust.jpg)no-repeat scroll right bottom;
+float:right;
+}
+
+#contents p {
+   margin:0;
+   padding:0.5em 0 2em 0;
+}
+
+#contents strong {
+   color:red;
+   font-weight:normal;
+   border-bottom:1px dashed #999;
+}
+
+/* ========FOOTER CUSTOMIZE======== */
+#footer {
+   font-size:0.9em;
+   text-align:center;
+   padding:10px;
+   border-top:5px double #899501;
+}
